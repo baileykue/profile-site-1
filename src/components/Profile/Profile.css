@@ -1,0 +1,17 @@
+.profile {
+  display: flex;
+  flex-direction: row;
+  margin: 25px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+}
+
+.pic {
+  width: 45vw;
+  height: 75vh;
+  object-fit: cover;
+}
