@@ -4,9 +4,17 @@ import './Footer.css';
 
 export default function Footer() {
   return (
-    <div className="footer">
-      <a href="https://github.com/baileykue">github</a>
-      <a href="https://www.linkedin.com/in/bailey-kuebelbeck/">linked in</a>
-    </div>
+    <footer className="footer">
+      <a href="https://github.com/baileykue" target="_blank" rel="noopener noreferrer">
+        github
+      </a>
+      <a
+        href="https://www.linkedin.com/in/bailey-kuebelbeck/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        linked in
+      </a>
+    </footer>
   );
 }

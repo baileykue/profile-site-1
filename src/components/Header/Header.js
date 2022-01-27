@@ -5,10 +5,13 @@ import './Header.css';
 
 export default function Header() {
   return (
-    <div className="header">
+    <header className="header">
+      <div className="name">
+        <p>bailey kuebelbeck</p>
+      </div>
       <p>profile</p>
       <p>projects</p>
       <p>resume</p>
-    </div>
+    </header>
   );
 }
