@@ -1,0 +1,28 @@
+/* 
+#DDD8B8 - light olive
+#B3CBB9 - minty green
+#84A9C0 - light blue
+#6A66A3 - blue purple, perriwinkle
+#542E71 - purple
+*/
+
+.App {
+  background: linear-gradient(-45deg, #b3cbb9, #84a9c0, #6a66a3, #542e71);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
